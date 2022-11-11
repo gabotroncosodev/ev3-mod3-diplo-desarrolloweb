@@ -1,0 +1,27 @@
+.btn-naranjo p {
+  padding: 3%;
+  background-color: var(--color-secundario);
+  border-radius: 5px;
+  text-align: center;
+  color: var(--color-blanco); }
+
+/*Botones barra izquierda buscador vuelos*/
+.boton-barra-buscador {
+  padding: 5px; }
+  .boton-barra-buscador a {
+    display: var(--disp-flex);
+    height: 35px; }
+    .boton-barra-buscador a .svg-contenedor-ico-buscador {
+      height: 100%;
+      display: var(--disp-flex);
+      align-items: center;
+      justify-content: center; }
+    .boton-barra-buscador a .txt-contenedor-btn-buscador {
+      display: var(--disp-flex);
+      align-items: center;
+      color: var(--color-blanco); }
+
+.boton-barra-buscador:hover {
+  background-color: var(--color-fondo-buscador); }
+
+/*# sourceMappingURL=botones.css.map */

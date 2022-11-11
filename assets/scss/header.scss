@@ -1,0 +1,33 @@
+$color-primario:var(--color-primario);
+$color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+
+.header-principal{
+    height: 80px;
+    background-color: $color-negro;
+    color: $color-blanco; 
+    display: $display-flex; 
+    align-items: center;  
+    position: relative;
+    .logo-header{
+        position: absolute;
+        left: 5px;
+        p{
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif ;
+        }
+    }
+    nav{
+        ul{            
+        display: $display-flex;
+        justify-content: flex-end;
+            a{
+                font-size: var(--fs-13);
+                width: 9%;
+                color: $color-blanco;
+                margin-left: 1%;
+            }
+        }
+    }
+}

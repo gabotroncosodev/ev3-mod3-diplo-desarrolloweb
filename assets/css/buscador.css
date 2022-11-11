@@ -1,0 +1,55 @@
+.section-buscador .contenedor-buscador {
+  background-color: var(--color-fondo-buscador);
+  display: var(--disp-flex);
+  justify-content: space-between; }
+  .section-buscador .contenedor-buscador .buscador-menu {
+    background-color: var(--color-primario);
+    display: var(--disp-flex);
+    flex-direction: column;
+    justify-content: space-between; }
+  .section-buscador .contenedor-buscador .buscador-opciones {
+    display: var(--disp-flex);
+    flex-direction: column;
+    justify-content: space-around; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda {
+      display: var(--disp-flex);
+      justify-content: space-between; }
+      .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda-txt {
+        background-color: var(--color-blanco);
+        border-radius: 7px; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda-txt p {
+          font-size: var(--fs-10); }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda-txt input {
+          border: none; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda-txt input:focus {
+          outline: none; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-check-viaje {
+      display: var(--disp-flex);
+      justify-content: space-between;
+      color: var(--color-blanco); }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha {
+      display: var(--disp-flex);
+      justify-content: space-between; }
+      .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda {
+        background-color: var(--color-blanco);
+        border-radius: 7px;
+        display: var(--disp-flex);
+        align-items: center; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda p {
+          font-size: var(--fs-10); }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda input {
+          border: none; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda input:focus {
+          outline: none; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda .contenedor-ico-busqueda svg {
+          width: 100%; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-mas-opciones-busqueda {
+      display: var(--disp-flex); }
+      .section-buscador .contenedor-buscador .buscador-opciones .contenedor-mas-opciones-busqueda .col-mas-opciones {
+        display: var(--disp-flex);
+        flex-direction: column;
+        justify-content: space-around; }
+        .section-buscador .contenedor-buscador .buscador-opciones .contenedor-mas-opciones-busqueda .col-mas-opciones a {
+          color: var(--color-terciario); }
+
+/*# sourceMappingURL=buscador.css.map */

@@ -1,0 +1,85 @@
+$color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+$color-fondo-buscador:var(--color-fondo-buscador);
+$color-primario:var(--color-primario);
+$color-terciario:var(--color-terciario);
+
+@mixin flex-elementos {
+    display: $display-flex;
+    justify-content: space-between;
+}
+
+
+
+@mixin cont-busqueda-txt {
+    background-color: $color-blanco;
+    border-radius: 7px;
+    p{
+        font-size: var(--fs-10);
+    }
+    input{
+       
+        border: none;
+    }
+    input:focus{
+        outline: none;
+    }
+}
+
+.section-buscador{ 
+    .contenedor-buscador{   
+        background-color: $color-fondo-buscador;        
+        display: $display-flex;
+        justify-content: space-between;  
+        .buscador-menu{
+            background-color: $color-primario;
+            display: $display-flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }      
+        .buscador-opciones{
+            display: $display-flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .contenedor-rutas-busqueda{
+                @include flex-elementos();
+                .contenedor-busqueda-txt{
+                   @include cont-busqueda-txt();                                  
+                }
+                
+            }
+            .contenedor-check-viaje{
+                @include flex-elementos();
+                color: $color-blanco;
+            }
+            .contenedor-rutas-fecha{                
+                @include flex-elementos();
+                .contenedor-busqueda{                    
+                    @include cont-busqueda-txt();  
+                    display: $display-flex;
+                    align-items: center;
+                    .contenedor-ico-busqueda{
+                        svg{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+            .contenedor-mas-opciones-busqueda{                
+                display: $display-flex;              
+                .col-mas-opciones{
+                    display: $display-flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    a{
+                        color: $color-terciario;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

@@ -1,0 +1,37 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(buscador.css);
+@import url(footer.css);
+@import url(encabezados.css);
+@import url(botones.css);
+@import url(tarjetas.css);
+@import url(efectos.css);
+main .section-banner .h2-banner {
+  color: var(--color-blanco); }
+main .section-buscador {
+  position: relative;
+  top: -150px; }
+main .section-destinos {
+  margin-top: -150px;
+  display: var(--disp-flex);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative; }
+  main .section-destinos .flecha-izquierda-verde {
+    position: absolute;
+    top: 50%;
+    left: 7%; }
+  main .section-destinos .flecha-derecha-verde {
+    position: absolute;
+    top: 50%;
+    right: 7%; }
+main .section-alianzas {
+  display: var(--disp-flex);
+  flex-wrap: wrap;
+  justify-content: space-between; }
+main .section-partners-experiencias .contenedor-experiencias {
+  display: var(--disp-flex);
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=style.css.map */
